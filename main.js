@@ -1,7 +1,8 @@
 
 let Holding = new HoldingWallet(); // Spot
-let Earning = new EarningWallet
-let ether = new Token();
+let Earning = new EarningWallet();
+let Trading = new TradingWallet();
+
 
 
 Holding.addToken(ether);
@@ -11,3 +12,4 @@ Holding.addToken(ether);
 //      --> Equivaut à l'affichage user
 console.log(Holding.tabTokens[0].quantity);
 console.log(Holding.tabTokens[0].value);
+
