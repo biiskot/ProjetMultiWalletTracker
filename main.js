@@ -3,7 +3,7 @@ let Holding = new HoldingWallet(); // Spot
 let Earning = new EarningWallet();
 let Trading = new TradingWallet();
 
-
+let tabChains = ['centralized','ethereum','avalanche','polygon','fantom','cronos','celo','velas','elrond'];
 
 Holding.addToken(ether);
 

@@ -14,11 +14,12 @@ class HoldingWallet {
         this.tabTokens = new Array();
     }
 
-    addToken(tkn,qtty) {
+    addToken(tkn,qtty,chain) {
         let holdStruct = {
             quantity: qtty,
             token: tkn,
-            value: qtty*tkn.price
+            value: qtty*tkn.price,
+            blockchain: chain
         }
         this.tabTokens.push(holdStruct); //Tab to display
     }
